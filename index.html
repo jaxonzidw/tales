@@ -1,0 +1,262 @@
+<!doctype html>
+
+<html>
+  <head>
+    <style>
+
+  body {
+               background-color:#E9E8E8;
+               }
+  
+  #alice {
+
+    position: fixed;
+    scale: 0.3;
+    /* top: 6vh; */
+    left: 2vw;
+    /* width: 18vw; */
+    height: 80vw;
+    /* z-index: 10; */
+}
+
+#alice:hover{
+
+  filter: invert(2);
+  scale: 0.4;  
+}
+
+  #bella {
+    position: fixed;
+    scale: 0.4;
+    /* top: 600vh; */
+    left: 55vw;
+    /* width: 180vw; */
+    height: 60vw;
+    /* z-index: 10; */
+    
+
+  }
+  
+  #bella:hover{
+
+filter: invert(2);
+scale:0.5;
+
+}
+
+  #mick{ 
+    position: fixed;
+    scale: 0.2;
+    /* top: 600vh; */
+    left: 30vw;
+    
+    height: 45vw;
+    /* z-index: 10; */
+
+  }
+
+  #mick:hover{
+
+filter: invert(2);
+scale: 0.4;
+
+}
+
+  #goofy{
+    
+    position: fixed;
+    scale: 1;
+    /* top: 600vh; */
+    left: 80vw;
+    
+    height: 45vw;
+    /* z-index: 10; */
+  }
+
+  #goofy:hover{
+
+filter: invert(2);
+scale: 1.3;
+
+}
+
+  #rap{
+
+    position: fixed; 
+    scale: 0.9;
+    left: 6vw; 
+    height: 45vw;
+
+  }
+
+  #rap:hover{
+
+filter: invert(2);
+scale: 1;
+
+}
+
+  #fish{
+
+position: fixed; 
+scale: 1.1;
+left: 32vw; 
+height: 14vw;
+
+}
+
+#fish:hover{
+
+filter: invert(2);
+scale: 1.4;
+
+}
+
+#rap {
+
+position: fixed; 
+scale: 0.65;
+left: 20vw; 
+height: 23vw;
+
+}
+
+#snow {
+
+position: fixed; 
+scale: 1.1;
+left: -5vw; 
+height: 45vw;
+
+}
+
+#snow:hover{
+
+filter: invert(2);
+scale: 1.2;
+
+}
+
+#pi {
+
+position: fixed; 
+scale: 0.4;
+left: 16vw; 
+height: 59vw;
+
+}
+
+#pi:hover{
+
+filter: invert(2);
+scale: 0.5;
+
+}
+
+#curella {
+    position: fixed;
+    scale: 0.5;
+    /* top: 600vh; */
+    left: 69vw;
+    /* width: 180vw; */
+    height: 28vw;
+    /* z-index: 10; */
+
+}
+
+#curella:hover{
+
+filter: invert(2);
+scale: 0.9;
+
+}
+
+#snowirl{
+  display: none;
+  position: fixed; 
+scale: 1.1;
+left: -5vw; 
+height: 45vw;
+
+}
+
+
+
+    </style>
+  </head>
+  <body>
+
+    
+
+
+  <img id= "alice" src="aliceinwonderland.png">
+  <img id="bella" src="bnb.png">
+  <img id="mick" src="disney.png">
+   <img id="goofy" src="goofy.png">
+   <img id="fish" src="lilm.png">
+   <img id="rap" src="rap.png">
+   <img id="snow" src="Snowwhite.png">
+   <img id="pi" src="pi.png">
+   <img id="curella" src="Curella.png">
+
+  
+   <img id="snowirl" src="snowirl.png">
+
+   <button onclick="javascript:showDiv();"></button>
+
+   
+
+   <script>
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    alert("please enable popup windows and don't use full screen! have fun <3");
+});
+
+document.getElementById("bella").onclick= function() {
+               document.getElementById("bella").innerHTML = window.open("https://www.proquest.com/docview/1310159184?pq-origsite=gscholar&fromopenview=true&sourcetype=Scholarly%20Journals&imgSeq=1", "furtest", "left=700,top=300,width=640,height=320");;
+           }
+
+document.getElementById("fish").onclick= function() {
+               document.getElementById("fish").innerHTML = window.open("https://www.rmg.co.uk/stories/topics/what-mermaid#:~:text=One%20of%20the%20earliest%20mermaid,top%20half%20in%20human%20form.", 
+               "mtest", "left=500,top=100,width=320,height=320");
+           }
+
+           document.getElementById("curella").onclick= function() {
+               document.getElementById("curella").innerHTML = window.open("https://www.youtube.co/watch?v=e3W8un-2ozo", "doggietest", "left=700,top=100,width=640,height=320");;
+           }
+
+document.getElementById("rap").onclick= function() {
+               document.getElementById("rap").innerHTML = window.open("https://collections.artsmia.org/art/127705/rapunzel-growing-in-the-garden-david-hockney", "raptest", "left=200,top=100,width=320,height=960");;
+           }
+
+           document.getElementById("alice").onclick= function() {
+               document.getElementById("alice").innerHTML = window.open("https://www.bbc.com/news/magazine-19254839", "alicetest", "left=550,top=500,width=320,height=320");;
+           }
+
+           document.getElementById("snow").onclick= function() {
+               document.getElementById("snow").innerHTML = window.open("https://www.dinagoldstein.com/dina-goldsteins-fallen-princesses/", "snowytest", "left=100,top=100,width=960,height=320");;
+           }
+
+           document.getElementById("pi").onclick= function() {
+               document.getElementById("pi").innerHTML = window.open("https://www.smithsonianmag.com/travel/the-real-pinocchio-180980027/", "pitest", "left=300,top=300,width=320,height=320");;
+           }
+
+
+           document.getElementById("mick").onclick= function() {
+               document.getElementById("mick").innerHTML = window.open("https://www.cnbc.com/2023/03/30/disney-ron-desantis-royal-lives-clause.html", "kingiiitest", "left=500,top=300,width=320,height=320");;
+           }
+
+
+           document.getElementById("goofy").onclick= function() {
+               document.getElementById("goofy").innerHTML = window.open("https://www.imdb.com/title/tt10761034/", "doortest", "left=1100,top=300,width=640,height=640");;
+           }
+
+           document.getElementById("snow").onclick= function showDiv() {
+              div = document.getElementById('snowirl');
+                   div.style.display = "block";
+}
+
+   </script>
+   
+  </body>
+</html> 
